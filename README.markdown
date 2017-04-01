@@ -1,5 +1,7 @@
 # Swecha Machine Learning Workshop
 
+Yet another Machine Learning workshop for beginners. Usually I tend to cram a lot of stuff into the [slides](http://suriyadeepan.github.io/4ccon) and overwhelm myself and the participants. This time, I am gonna try to teach as little as possible. 
+
 ## Setup
 
 ```bash
@@ -13,7 +15,12 @@ source basic/bin/activate
 pip install -r requirements.txt
 # install virtualenv (basic) kernel to jupyter notebook
 python3 -m ipykernel install --user --name=basic
-# install pytorch
-wget -c 'http://download.pytorch.org/whl/cu75/torch-0.1.11.post5-cp35-cp35m-linux_x86_64.whl'
-pip install torch-0.1.11.post5-cp35-cp35m-linux_x86_64.whl
+```
+
+## Run Notebook
+
+```bash
+cd notebooks/
+jupyter notebook
+# make sure the kernel point to `basic`
 ```
