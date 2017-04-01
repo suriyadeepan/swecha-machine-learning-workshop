@@ -5,10 +5,13 @@ Yet another Machine Learning workshop for beginners. Usually I tend to cram a lo
 ## Setup
 
 ```bash
+git clone https://github.com/suriyadeepan/swecha-machine-learning-workshop
+cd swecha-machine-learning-workshop/
 scripts/install_ext.sh # external dependencies
 # setup virtual env
 virtualenv --python=python3 basic
 source basic/bin/activate
+
 # now we have entered the virtual env
 #  you prompt should looke like
 #   (basic) username@compname:~/wherever/
