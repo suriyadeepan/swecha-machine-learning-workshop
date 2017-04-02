@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo apt-get install python3 python3-dev python3-pip 
+# matplotlib dependencies
+sudo apt-get install libpng-dev libjpeg8-dev libfreetype6-dev
 # upgrade pip3
 sudo -H pip3 install --upgrade pip
 # install pyzmq
