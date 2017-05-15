@@ -1,14 +1,14 @@
 #!/bin/bash
 
-sudo apt-get install python3 python3-dev python3-pip 
+sudo apt install python3 python3-dev python3-pip 
 # matplotlib dependencies
-sudo apt-get install libpng-dev libjpeg8-dev libfreetype6-dev
+sudo apt install libpng-dev libjpeg8-dev libfreetype6-dev
 # upgrade pip3
 sudo -H pip3 install --upgrade pip
 # install pyzmq
 sudo -H pip3 install --upgrade zmq
 # install ipython3, jupyter
-sudo apt-get install ipython3
+sudo apt install ipython3
 sudo -H pip3 install --upgrade jupyter
 # minimal installation : jupyter[notebook]
 
@@ -16,7 +16,7 @@ sudo -H pip3 install --upgrade jupyter
 sudo ipython3 kernel install
 
 # install jupyter themes
-sudo -H pip3 install jupyter-themes
+sudo -H pip3 install jupyterthemes
 
 # set theme
 sudo jt -t grade3
